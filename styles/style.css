@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.app{
+    background-color: #E9E3EC;
+}
+/*styling the header*/
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: #BEA6A0;
+    padding: 20px 0px;
+    border-bottom: 2px solid #56423D;
+}
+.nav-bar{
+    display: inline;
+    position: relative;
+    top: -6px;
+}
+.nav-list{
+    list-style-type: none;
+    width: 700px;
+    margin-left: 600px;
+}
+.nav-item{
+    display: inline-block;
+    margin: 5px 40px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #56423D ;
+}
+/*styling the hero*/
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    column-gap: 30px;
+    color: #56423D;
+}
+.hero-left,.hero-right{
+    text-align: center;
+    padding: 50px;
+}
+.hero-left{
+    background-color: #fefefe;
+    width: 400px;
+    height: 400px;
+}
+.hero-right{
+    background-color: #F6BEB0;
+    width: 400px;
+    height:200px;
+}
+/*styling the education section*/
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    column-gap: 30px;
+    color: #56423D;
+    background-color: #BEA6A0;
+}
+.education-left{
+    background-color: #F6BEB0;
+}
+.education-right{
+    background-color: #fefefe;
+}
+.education-left,.education-right{
+    height: 450px;
+    padding: 25px;
+    width: 49%;
+}.edu-detail{
+    text-align: center;
+    border-bottom: 2px solid #56423D;
+    width: 550px;
+    margin: 0px 70px;
+}
+/* styling the experiance section*/
+.experiance{
+    color: #56423D;
+    text-align: center;
+    width: 60%;
+    margin: 30px 300px;
+}
+.exp{
+    background-color: #fefefe;
+    padding: 20px;
+}
+/* styling the contact section*/
+.contact{
+    background-color: #BEA6A0;
+    padding: 25px;
+    text-align: center;
+}
+.contact-info{
+    display: block;
+    width: 600px;
+    margin: 20px 510px;
+    color: #56423D;
+    background-color: #E9E3EC;
+    padding: 15px;
+    border: 2px solid #F6BEB0;
+    border-radius: 5%;
+}
+.submit{
+    padding: 10px 15px;
+    border: 2px solid #F6BEB0;
+    background-color: #E9E3EC;
+}
+/*styling the footer*/
+.footer{
+    padding: 25px;
+    text-align: center;
+}
+.social-link{
+    text-decoration: none;
+    color: #56423D;
+}
+.icon{
+    margin: 0px 25px;
+}
